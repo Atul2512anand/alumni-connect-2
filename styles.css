@@ -144,15 +144,16 @@ header.scrolled {
 
 .uni-info h1 {
     font-size: 1.1rem;
-    font-family: 'Syne', sans-serif;
     letter-spacing: 1px;
+    color: #fff;
+    font-weight: 800;
 }
 
 .uni-info p {
-    font-size: 0.7rem;
-    color: var(--text-secondary);
+    font-size: 0.75rem;
+    color: var(--accent-color);
+    font-family: 'JetBrains Mono', monospace;
     text-transform: uppercase;
-    letter-spacing: 2px;
 }
 
 /* --- Hero Section --- */
