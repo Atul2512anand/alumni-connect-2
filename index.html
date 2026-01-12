@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Seminar | NFSU Dharwad Training & Placement Cell</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@400;700;800&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Background Layers -->
+    <div class="bg-noise"></div>
+    <div class="bg-glow-container">
+        <div class="glow-orb orb-1"></div>
+        <div class="glow-orb orb-2"></div>
+        <div class="glow-orb orb-3"></div>
+        <div class="glow-orb orb-4"></div>
+    </div>
+    <div class="particles-container" id="particles"></div>
+    <div class="scanline"></div>
+
+    <header id="main-header">
+        <nav class="container">
+            <div class="logo-section animate-in">
+                <div class="uni-logo-placeholder">
+                   <img src="nfsu.PNG" alt="NFSU Logo" class="uni-logo">
+                </div>
+                <div class="uni-info">
+                    <h1>NATIONAL FORENSIC SCIENCES UNIVERSITY</h1>
+                    <p>Dharwad Campus | Training & Placement Cell</p>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="grid-bg"></div>
+            <div class="container hero-content">
+                <div class="badge animate-up">Alumni Connect Series</div>
+                <h2 class="animate-up delay-1">Technical Seminar: <br><span class="gradient-text">Navigating Cybersecurity Careers</span></h2>
+                
+                <div class="event-meta animate-up delay-2">
+                    <div class="meta-item">
+                        <i data-lucide="calendar"></i>
+                        <span>January 17, 2026</span>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="clock"></i>
+                        <span>3:00 PM - 4:00 PM</span>
+                    </div>
+                    <div class="meta-item">
+                        <i data-lucide="map-pin"></i>
+                        <span>Virtual Session</span>
+                    </div>
+                </div>
+
+                <div class="cta-group animate-up delay-3">
+                    <a href="#" class="btn btn-primary magnetic">
+                        <span>Register Now</span>
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary magnetic">
+                        <i data-lucide="video"></i>
+                        <span>Join Meeting</span>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="scroll-indicator">
+                <div class="mouse">
+                    <div class="wheel"></div>
+                </div>
+            </div>
+        </section>
+
+        <section class="speakers container">
+            <h3 class="section-title reveal">Meet Your Seniors</h3>
+            <div class="speaker-grid">
+                <div class="speaker-card reveal">
+                    <div class="card-inner-glow"></div>
+                    <div class="speaker-img-wrapper">
+                        <div class="img-border-animate"></div>
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=300&h=300&auto=format&fit=crop" alt="Nikhil Godishela" class="speaker-img">
+                    </div>
+                    <div class="speaker-info">
+                        <h4>Nikhil Godishela</h4>
+                        <p class="pronouns">He/Him</p>
+                        <p class="designation">MDR Analyst @ Palo Alto Networks (Unit 42)</p>
+                        <p class="bio">Expert in SOC/MDR, alert triage, and incident investigation. Former Associate Infosec Analyst at Micron and KPMG. NFSU M.Sc Cyber Security Alumnus (2022-24).</p>
+                    </div>
+                </div>
+
+                <div class="speaker-card reveal">
+                    <div class="card-inner-glow"></div>
+                    <div class="speaker-img-wrapper">
+                        <div class="img-border-animate"></div>
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=300&h=300&auto=format&fit=crop" alt="Jay Vadhaiya" class="speaker-img">
+                    </div>
+                    <div class="speaker-info">
+                        <h4>Jay Vadhaiya</h4>
+                        <p class="pronouns">He/Him</p>
+                        <p class="designation">Associate InfoSec Analyst @ Micron Technology</p>
+                        <p class="bio">Focused on GSO and Information Security. Active member of CyberVerse Community. NFSU M.Sc Cyber Security Alumnus (2022-24).</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="session-details container">
+            <div class="details-card reveal">
+                <div class="card-glow-follow"></div>
+                <h3>What we'll cover</h3>
+                <div class="topics-grid">
+                    <div class="topic-item magnetic">
+                        <i data-lucide="compass"></i>
+                        <p>Career Roadmap for Cybersecurity</p>
+                    </div>
+                    <div class="topic-item magnetic">
+                        <i data-lucide="shield-check"></i>
+                        <p>Deep dive into SOC/MDR roles</p>
+                    </div>
+                    <div class="topic-item magnetic">
+                        <i data-lucide="award"></i>
+                        <p>Essential Skills & Certifications</p>
+                    </div>
+                    <div class="topic-item magnetic">
+                        <i data-lucide="alert-triangle"></i>
+                        <p>Common Mistakes to Avoid</p>
+                    </div>
+                    <div class="topic-item magnetic">
+                        <i data-lucide="messages-square"></i>
+                        <p>Interactive Q&A Session</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 NFSU Dharwad Campus | Training & Placement Cell</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "fluxo-website",
+  "version": "1.0.0",
+  "description": "A simple static website with live-server support.",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --open=index.html"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.0"
+  }
+}
