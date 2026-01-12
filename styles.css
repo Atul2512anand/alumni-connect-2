@@ -439,3 +439,33 @@ footer {
     .hero h2 { font-size: 3rem; }
     .details-card { padding: 4rem 2rem; }
 }
+/* Force 2 speakers side-by-side on mobile */
+@media (max-width: 768px) {
+    .speaker-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+
+    .speaker-card {
+        padding: 2rem 1.5rem;
+        border-radius: 25px;
+    }
+
+    .speaker-img-wrapper {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 1.5rem;
+    }
+
+    .speaker-info h4 {
+        font-size: 1.2rem;
+        text-align: center;
+    }
+
+    .designation,
+    .bio,
+    .pronouns {
+        font-size: 0.8rem;
+        text-align: center;
+    }
+}
